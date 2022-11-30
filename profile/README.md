@@ -28,7 +28,7 @@ This is a place where you can find some source code I've referenced to from my [
 > 
 > ⚡️ Last 7 years I'm dealing mostly with Android Development and have been building modern [native] apps for devices running on Android OS from version 6 <sup>Marshmallow</sup> to 13 <sup>Tiramisu</sup> . It covers about ~96.2% of all android devices nowdays.
 >
-> Despite the war between Ukraine and Russia and some issues with electricity after Russia's missile attacks, I'm still continue working from a safe place with autonomous power supply.
+> Despite the war between Ukraine and Russia and some issues with electricity after Russia's missile attacks, I'm still continue working from a safe place with an ability to stay online during blackouts.
 
 
 ### 📫 Reach me at:  
