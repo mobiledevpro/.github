@@ -1,19 +1,17 @@
-
-
-
 ### 👋 Welcome 
 
-This is a place where you can find some source code I've referenced to from my [Instagram](https://www.instagram.com/mobiledevpro/) or [Twitter](https://twitter.com/mobiledev_pro).
+This is a place where you could find Android relaled source code I've referenced from my [Instagram](https://www.instagram.com/mobiledevpro/) or [Twitter](https://twitter.com/mobiledev_pro).
 
 ### Tech. stack in 2022: 
 
 * Kotlin, Coroutines, RxJava/RxAndroid, Koin, Retrofit, Room.
-* DataBinding/ViewBinding, LiveData, Jetpack Navigation components.
+* LiveData, Jetpack Navigation components.
+* Jetpack Compose.
 * MVVM pattern + Clean architecture.
-* Modularisation with a Dynamic Feature delivery.
+* Modularization with Dynamic Feature delivery.
 * Material 3 Design.
 * Best practices in Modern App Development.
-* Jetpack Compose.
+
 
 ### Created by:
 
