@@ -2,15 +2,18 @@
 
 This is a place where you could find Android relaled source code I've referenced from my [Instagram](https://www.instagram.com/mobiledevpro/) or [Twitter](https://twitter.com/mobiledev_pro).
 
-### Tech. stack in 2022: 
+### In 2022 the main tech. stack: 
 
+* Android SDK.
 * Kotlin, Coroutines, RxJava/RxAndroid, Koin, Retrofit, Room.
-* LiveData, Jetpack Navigation components.
 * Jetpack Compose.
-* MVVM pattern + Clean architecture.
-* Modularization with Dynamic Feature delivery.
+* Jetpack Navigation.
+* Modularisation with Dynamic Feature delivery.
+* MVVM + Clean architecture.
 * Material 3 Design.
-* Best practices in Modern App Development.
+* Ktor + Heroku.
+* Firebase (Crashlytics, Performance, Remote Config, Database)
+* Circle CI.
 
 
 ### Created by:
@@ -31,7 +34,7 @@ This is a place where you could find Android relaled source code I've referenced
 
 ### 📫 Reach me at:  
    
-[![Instagram](https://img.shields.io/badge/-instagram-E4405F?logo=instagram&message=behind+the+scenes+in+Stories&label=behind+the+scenes+in+Stories&style=for-the-badge&logoColor=white)](https://www.instagram.com/mobiledevpro/)
-[![Twitter](https://img.shields.io/badge/-twitter-1DA1F2?logo=twitter&style=for-the-badge&message=Sharing+some+stuffs+to&label=Sharing+some+stuffs+to&logoColor=white)](https://twitter.com/mobiledev_pro)
+[![Instagram](https://img.shields.io/badge/-instagram-E4405F?logo=instagram&message=Insights+and+progress+on&label=Insights+and+progress+on&style=for-the-badge&logoColor=white)](https://www.instagram.com/mobiledevpro/)
+[![Twitter](https://img.shields.io/badge/-twitter-1DA1F2?logo=twitter&style=for-the-badge&message=Android+related+stuffs+on&label=Android+related+stuffs+on&logoColor=white)](https://twitter.com/mobiledev_pro)
 [![Upwork](https://img.shields.io/badge/-upwork-brightgreen?logo=upwork&message=Upwork&label=Work+with+me+on&style=for-the-badge)](https://www.upwork.com/freelancers/~01fb21586ed544f07b)
-[![Linkedin](https://img.shields.io/badge/-linkedin-0A66C2?logo=linkedin&style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/dmitriychernysh/)
+[![Linkedin](https://img.shields.io/badge/-linkedin-0A66C2?logo=linkedin&style=for-the-badge&logoColor=white&label=connect+on)](https://www.linkedin.com/in/dmitriychernysh/)
