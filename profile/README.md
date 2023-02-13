@@ -2,6 +2,11 @@
 
 This is a page where you could find Android relaled source code I've mentioned on my [Instagram](https://www.instagram.com/mobiledevpro/) or [Twitter](https://twitter.com/mobiledev_pro).
 
+### 🔭 Under development
+
+- [App Template / Simple Chat app with Jetpack Compose](https://github.com/mobiledevpro/Android-Jetpack-Compose-MVI-Template)
+
+
 ### In 2023 the main tech. stack: 
 
 * Android SDK.
@@ -14,10 +19,6 @@ This is a page where you could find Android relaled source code I've mentioned o
 * Ktor + Heroku.
 * Firebase (Crashlytics, Performance, Remote Config, Database)
 * Circle CI.
-
-### 🔭 Under development
-
-- [App Template / Simple Chat app with Jetpack Compose](https://github.com/mobiledevpro/Android-Jetpack-Compose-MVI-Template)
 
 
 
