@@ -1,19 +1,24 @@
 ### 👋 Welcome 
 
-This is a place where you could find Android relaled source code I've referenced from my [Instagram](https://www.instagram.com/mobiledevpro/) or [Twitter](https://twitter.com/mobiledev_pro).
+This is a page where you could find Android relaled source code I've mentioned on my [Instagram](https://www.instagram.com/mobiledevpro/) or [Twitter](https://twitter.com/mobiledev_pro).
 
-### In 2022 the main tech. stack: 
+### In 2023 the main tech. stack: 
 
 * Android SDK.
 * Kotlin, Coroutines, RxJava/RxAndroid, Koin, Retrofit, Room.
 * Jetpack Compose.
 * Jetpack Navigation.
 * Modularisation with Dynamic Feature delivery.
-* MVVM + Clean architecture.
+* MVVM and MVI + Clean architecture.
 * Material 3 Design.
 * Ktor + Heroku.
 * Firebase (Crashlytics, Performance, Remote Config, Database)
 * Circle CI.
+
+### 🔭 Under development
+
+- [App Template / Simple Chat app with Jetpack Compose](https://github.com/mobiledevpro/Android-Jetpack-Compose-MVI-Template)
+
 
 
 ### Created by:
