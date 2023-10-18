@@ -1,18 +1,8 @@
-### 👋 Here you would find Android related open-source code I referenced from my
-
 [![Instagram](https://img.shields.io/badge/-instagram-E4405F?logo=instagram&message=Behind+the+scenes+in+Storiesn&style=for-the-badge&logoColor=white)](https://www.instagram.com/mobiledevpro/)
 [![Youtube](https://img.shields.io/badge/-youtube-red?logo=youtube&message=Youtube&style=for-the-badge)](https://www.youtube.com/@mobiledevpro?sub_confirmation=1)
 [![Twitter](https://img.shields.io/badge/-twitter-1DA1F2?logo=twitter&style=for-the-badge&logoColor=white)](https://twitter.com/mobiledev_pro)
 [![Linkedin](https://img.shields.io/badge/-linkedin-0A66C2?logo=linkedin&style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/dmitriychernysh/)
-
-##
-
-### In progress
-
-- [App Template / Chat app with Jetpack Compose](https://github.com/mobiledevpro/Android-Jetpack-Compose-MVI-Template)
-
-##
-### New ideas
+[![Upwork](https://img.shields.io/badge/-upwork-brightgreen?logo=upwork&message=Upwork&style=for-the-badge)](https://www.upwork.com/agencies/817794034118193152/)
 
 
 ##
@@ -41,7 +31,7 @@
 **Dmitri Chernysh**
 
 
-> ⚡️ I`m a Software Engineer from Ukraine with over 10 years of experience in software development and a Top-Rated freelance Developer on Upwork since 2016.
-> 
-> ⚡️ Since 2015 I've been dealing mostly with Android Development and have been building modern [native] apps for devices running on Android OS from version 6 <sup>Marshmallow</sup> to 13 <sup>Tiramisu</sup>. It covers about ~96.2% of all Android devices nowadays.
+> I`m a Software Engineer from Ukraine with over 10 years of experience in software development and a Top-Rated freelance Developer on Upwork since 2016.
+>
+>  Since 2015 I've been dealing mostly with Android Development and have been building modern [native] apps for devices running on Android OS from version 6 <sup>Marshmallow</sup> to 13 <sup>Tiramisu</sup>. It covers about ~96.2% of all Android devices nowadays.
 >
