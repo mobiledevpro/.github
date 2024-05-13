@@ -37,6 +37,7 @@ jobs:
 
       - name: Swith remote origin
         run: |
+          echo ${BACKUP_REPO}
           git remote set-url origin ${BACKUP_REPO}
         
       - name: Delete all branches except master
