@@ -32,8 +32,8 @@ jobs:
         with: 
           url: ${{ env.ORIGIN_REPO }}
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          ref: main
-          fetch-depth: 0
+         # ref: main
+         # fetch-depth: 0
 
       - name: Swith remote origin
         run: |
