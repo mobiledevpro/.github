@@ -26,7 +26,7 @@ jobs:
     
       # Checkout the repo https://github.com/yojimbo45/Image-to-PDF-Android
       - name: Checkout Image-To-PDF-repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@master
         with: 
           url: git@github.com:yojimbo45/Image-to-PDF-Android.git
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
