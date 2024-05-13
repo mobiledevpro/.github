@@ -18,7 +18,6 @@ jobs:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
     env:
-      ORIGIN_REPO: git@github.com:yojimbo45/Image-to-PDF-Android.git
       BACKUP_REPO: git@github.com:mobiledevpro/image-to-pdf-android.git
 
     # Steps represent a sequence of tasks that will be executed as part of the job
@@ -45,11 +44,10 @@ jobs:
      #   run: |
      #     git clone ${BACKUP_REPO} image-to-pdf-repo
      
-      - name: Clone  Image-To-PDF Repository 
+      - name: Clone Image-To-PDF Repository 
         uses: actions/checkout@v4
         with:
-          #repository: 'yojimbo45/Image-to-PDF-Android'
-          url: ${{ env.ORIGIN_REPO }}
+          repository: 'yojimbo45/Image-to-PDF-Android'
           path: image-to-pdf-repo
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
     
@@ -57,7 +55,7 @@ jobs:
         run: |
            cd image-to-pdf-repo && ls
 
-      - name: Swith remote origin
+      - name: Switch remote origin
         run: |
           echo ${BACKUP_REPO} &&
           cd image-to-pdf-repo &&
@@ -65,12 +63,15 @@ jobs:
         
       - name: Delete all branches except master
         run: |
+          cd image-to-pdf-repo &&
           git ls-remote --heads ${BACKUP_REPO} | awk -F/ '! /\/master/{print $3}' | xargs -I {} git push ${BACKUP_REPO} --delete --force {} || true
 
       - name: Push all branches to backup repo
         run: |
+          cd image-to-pdf-repo &&
           git push origin main:master --force
 
       - name: Push all tags to backup repo
         run: |
+          cd image-to-pdf-repo &&
           git push --tags
