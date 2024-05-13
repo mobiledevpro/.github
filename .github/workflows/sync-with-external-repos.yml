@@ -30,10 +30,22 @@ jobs:
       - name: Checkout Image-To-PDF-repo
         uses: actions/checkout@v4
         with: 
-          url: ${{ env.ORIGIN_REPO }}
+          #url: ${{ env.ORIGIN_REPO }}
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
          # ref: main
          # fetch-depth: 0
+
+      - name: Create a directory for Image-To-PDF-repo
+        run: |
+          mkdir image-to-pdf-repo
+          cd image-to-pdf-repo
+         
+      - name: Clone  Image-To-PDF Repository
+        run: |
+          git clone ${BACKUP_REPO} .
+
+      - name: Check the directory
+        run: ls
 
       - name: Swith remote origin
         run: |
