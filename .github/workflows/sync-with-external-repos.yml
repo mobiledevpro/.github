@@ -53,7 +53,8 @@ jobs:
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
     
       - name: Check the directory
-        run: ls
+        run: |
+           cd image-to-pdf-repo && ls
 
       - name: Swith remote origin
         run: |
