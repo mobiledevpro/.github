@@ -42,14 +42,15 @@ jobs:
          
       - name: Clone  Image-To-PDF Repository
         run: |
-          git clone ${BACKUP_REPO} .
+          git clone ${BACKUP_REPO} image-to-pdf-repo
 
       - name: Check the directory
         run: ls
 
       - name: Swith remote origin
         run: |
-          echo ${BACKUP_REPO}
+          echo ${BACKUP_REPO} &&
+          cd image-to-pdf-repo &&
           git remote set-url origin ${BACKUP_REPO}
         
       - name: Delete all branches except master
