@@ -26,10 +26,11 @@ jobs:
     
       # Checkout the repo https://github.com/yojimbo45/Image-to-PDF-Android
       - name: Checkout Image-To-PDF-repo
-        uses: actions/checkout@master
+        uses: actions/checkout@v4
         with: 
           url: git@github.com:yojimbo45/Image-to-PDF-Android.git
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ref: master
 
       - name: Delete all branches except master
         run: |
