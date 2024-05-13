@@ -40,12 +40,18 @@ jobs:
       - name: Create a directory for Image-To-PDF-repo
         run: |
           mkdir image-to-pdf-repo
-          cd image-to-pdf-repo
          
-      - name: Clone  Image-To-PDF Repository
-        run: |
-          git clone ${BACKUP_REPO} image-to-pdf-repo
-
+     # - name: Clone  Image-To-PDF Repository
+     #   run: |
+     #     git clone ${BACKUP_REPO} image-to-pdf-repo
+     
+      - name: Clone  Image-To-PDF Repository 
+        uses: actions/checkout@v4
+        with:
+          repository: 'yojimbo45/Image-to-PDF-Android'
+          path: image-to-pdf-repo
+          ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+    
       - name: Check the directory
         run: ls
 
