@@ -30,7 +30,7 @@ jobs:
       - name: Checkout Image-To-PDF-repo
         uses: actions/checkout@v4
         with: 
-          url: ${{ ORIGIN_REPO }}
+          url: ${{ env.ORIGIN_REPO }}
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           ref: main
           fetch-depth: 0
