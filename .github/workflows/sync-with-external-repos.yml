@@ -31,6 +31,7 @@ jobs:
           url: git@github.com:yojimbo45/Image-to-PDF-Android.git
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
           ref: master
+          fetch-depth: 0
 
       - name: Delete all branches except master
         run: |
