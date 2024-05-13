@@ -46,7 +46,7 @@ jobs:
 
       - name: Push all branches to backup repo
         run: |
-          git push --force main:master
+          git push origin main:master --force
 
       - name: Push all tags to backup repo
         run: |
