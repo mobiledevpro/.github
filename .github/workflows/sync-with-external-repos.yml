@@ -13,28 +13,32 @@ on:
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
   # This workflow contains a single job called "build"
-  build:
+  sync-image-to-pdf-repo:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
+    env:
+      BACKUP_REPO: git@github.com:mobiledevpro/image-to-pdf-android.git
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
      # - uses: actions/checkout@v4
-
+    
       # Checkout the repo https://github.com/yojimbo45/Image-to-PDF-Android
       - name: Checkout Image-To-PDF-repo
         uses: actions/checkout@v4
         with: 
           url: git@github.com:yojimbo45/Image-to-PDF-Android.git
-          #repository: yojimbo45/Image-to-PDF-Android
-          #path: Image-to-PDF-Android
-          # submodules: recursive
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-          #ref: master
 
-      # Runs a set of commands using the runners shell
-      - name: Run a multi-line script
+      - name: Delete all branches except master
         run: |
-          echo Add other actions to build,
-          echo test, and deploy your project.
+          git ls-remote --heads ${BACKUP_REPO} | awk -F/ '! /\/master/{print $3}' | xargs -I {} git push ${BACKUP_REPO} --delete --force {} || true
+
+      - name: Push all branches to backup repo
+        run: |
+          git push --force --all ${BACKUP_REPO}
+
+      - name: Push all tags to backup repo
+        run: |
+          git push ${BACKUP_REPO} --tags
