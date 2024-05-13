@@ -5,8 +5,8 @@ name: Backup Image To PDF repo
 # Controls when the workflow will run
 on:
   schedule:
-    # At 00:00 every day
-    - cron: "0 0 * * *"
+    # Run every 4 hours
+    - cron: "0 */4 * * *"
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -22,28 +22,10 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
-    #  - uses: actions/checkout@v4
-     #   with:
-      #     ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-    
-      # Checkout the repo https://github.com/yojimbo45/Image-to-PDF-Android
-     # - name: Checkout Image-To-PDF-repo
-     #   uses: actions/checkout@v4
-     #   with: 
-          #url: ${{ env.ORIGIN_REPO }}
-     #     ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
-         # ref: main
-         # fetch-depth: 0
-
       - name: Create a directory for Image-To-PDF-repo
         run: |
           mkdir image-to-pdf-repo
          
-     # - name: Clone  Image-To-PDF Repository
-     #   run: |
-     #     git clone ${BACKUP_REPO} image-to-pdf-repo
-     
       - name: Clone Image-To-PDF Repository 
         uses: actions/checkout@v4
         with:
@@ -55,12 +37,6 @@ jobs:
         run: |
            cd image-to-pdf-repo && ls
 
-     # - name: Switch remote origin
-     #   run: |
-     #     echo ${BACKUP_REPO} &&
-     #     cd image-to-pdf-repo &&
-     #     git remote set-url origin ${BACKUP_REPO}
-        
       - name: Delete all branches except master
         run: |
           cd image-to-pdf-repo &&
