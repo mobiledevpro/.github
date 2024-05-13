@@ -22,9 +22,11 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v4
 
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: echo Hello, world!
+      # Checkout the repo https://github.com/yojimbo45/Image-to-PDF-Android
+      - name: Checkout Image-To-PDF-repo
+        uses: actions/checkout@master
+        with: 
+          repository: yojimbo45/Image-to-PDF-Android
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
