@@ -48,7 +48,8 @@ jobs:
       - name: Clone  Image-To-PDF Repository 
         uses: actions/checkout@v4
         with:
-          repository: 'yojimbo45/Image-to-PDF-Android'
+          #repository: 'yojimbo45/Image-to-PDF-Android'
+          url: ${{ env.ORIGIN_REPO }}
           path: image-to-pdf-repo
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
     
