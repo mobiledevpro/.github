@@ -69,7 +69,7 @@ jobs:
       - name: Push all branches to backup repo
         run: |
           cd image-to-pdf-repo &&
-          git push origin main:master --force
+          git push origin --force
 
       - name: Push all tags to backup repo
         run: |
