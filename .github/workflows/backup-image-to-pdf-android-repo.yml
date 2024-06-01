@@ -45,7 +45,7 @@ jobs:
       - name: Push all branches to backup repo
         run: |
           cd image-to-pdf-repo && ls &&
-          git push --all --prune --force --verbose ${BACKUP_REPO}
+          git push --mirror --verbose ${BACKUP_REPO}
 
       - name: Push all tags to backup repo
         run: |
