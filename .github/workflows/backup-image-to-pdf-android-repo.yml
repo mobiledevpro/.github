@@ -32,6 +32,7 @@ jobs:
           repository: 'yojimbo45/Image-to-PDF-Android'
           path: image-to-pdf-repo
           ssh-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          fetch-depth: 0 # fetch all history with branches and tags
     
       - name: Check the directory
         run: |
