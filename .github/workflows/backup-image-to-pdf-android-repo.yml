@@ -37,15 +37,15 @@ jobs:
         run: |
            cd image-to-pdf-repo && ls
 
-      - name: Delete all branches except master
-        run: |
-          cd image-to-pdf-repo &&
-          git ls-remote --heads ${BACKUP_REPO} | awk -F/ '! /\/master/{print $3}' | xargs -I {} git push ${BACKUP_REPO} --delete --force {} || true
+#      - name: Delete all branches except master
+#        run: |
+#          cd image-to-pdf-repo &&
+#          git ls-remote --heads ${BACKUP_REPO} | awk -F/ '! /\/master/{print $3}' | xargs -I {} git push ${BACKUP_REPO} --delete --force {} || true
 
       - name: Push all branches to backup repo
         run: |
           cd image-to-pdf-repo && ls &&
-          git push --mirror -f -v ${BACKUP_REPO}
+          git push --all --prune --force --verbose ${BACKUP_REPO}
 
       - name: Push all tags to backup repo
         run: |
