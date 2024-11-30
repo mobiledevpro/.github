@@ -6,20 +6,20 @@ Building modern apps with Kotlin & Jetpack Compose. The place where you could fi
 [![Linkedin](https://img.shields.io/badge/-linkedin-0A66C2?logo=linkedin&style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/dmitriychernysh/)
 
 ##
-### In 2023-24 the main tech. stack: 
+### In 2024 the main tech. stack: 
 
 * Android SDK, Gradle Kotlin DSL
-* Kotlin, Coroutines, RxJava/RxAndroid, Koin, Retrofit, Room.
+* Kotlin, Coroutines, Koin, Retrofit, Room.
 * Jetpack Compose, Jetpack Navigation.
-* MVVM or MVI + Clean architecture, modularization.
+* MVI + Clean architecture, modularization.
 * Material 3 Design.
 * Ktor + Heroku for the app backend.
 * Firebase services, Google APIs.
 * Circle CI or GitHub Actions for continuous integration.
 * Google ML kit for text and image recognition.
-* FFMPeg for video/audio edit features.
 * CameraX API for photo/video capture.
-
+* FFMpeg for video/audio editing features.
+* OpenGL, OpenCV for image processing. 
 
 
 ### Author
