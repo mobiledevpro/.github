@@ -33,7 +33,7 @@ Building modern apps with Kotlin & Jetpack Compose. The place where you could fi
 
 > I`m a Software Engineer from Ukraine with over 10 years of experience in software development and a Top-Rated+ freelance Developer on Upwork.
 >
->  7+ years I've been dealing mostly with Android Development and have been building modern [native] apps for devices running on Android 6+. It covers about ~96.2% of all Android devices nowadays.
+>  Since 2015 I've been dealing mostly with Android Development and building modern [native] apps for Smartphone and Tablet devices running on Android 6+.
 >
 
 
