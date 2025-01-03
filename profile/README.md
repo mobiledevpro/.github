@@ -1,12 +1,12 @@
 Building modern apps with Kotlin & Jetpack Compose. The place where you could find the source code related to Android Development.
 
 [![Youtube](https://img.shields.io/badge/-youtube-red?logo=youtube&message=Youtube&style=for-the-badge&label=Watch+on)](https://www.youtube.com/@mobiledevpro?sub_confirmation=1)
-[![Instagram](https://img.shields.io/badge/-instagram-E4405F?logo=instagram&message=Behind+the+scenes+in+Storiesn&style=for-the-badge&logoColor=white&label=progress+%26+insights)](https://www.instagram.com/mobiledevpro/)
+[![Instagram](https://img.shields.io/badge/-instagram-E4405F?logo=instagram&message=Behind+the+scenes+in+Storiesn&style=for-the-badge&logoColor=white&label=behind-the-scenes)](https://www.instagram.com/mobiledevpro/)
 [![Twitter](https://img.shields.io/badge/-twitter-1DA1F2?logo=twitter&style=for-the-badge&logoColor=white)](https://twitter.com/mobiledev_pro)
 [![Linkedin](https://img.shields.io/badge/-linkedin-0A66C2?logo=linkedin&style=for-the-badge&logoColor=white)](https://www.linkedin.com/in/dmitriychernysh/)
 
 ##
-### In 2024 the main tech. stack: 
+### In 2024-2025 the main tech. stack: 
 
 * Android SDK, Gradle Kotlin DSL
 * Kotlin, Coroutines, Koin, Retrofit, Room.
